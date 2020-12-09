@@ -3,6 +3,12 @@
 :root {
     --bgColor: white;
     --accentColor: #39cde0;
+    --redColor: #ffb1b0;
+    --orangeColor: #ffdfbe;
+    --yellowColor: #ffffbf;
+    --greenColor: #b4f0a7;
+    --blueColor: #a9d1f7;
+    --violetColor: #cc99ff;
     --font: 'Karla', sans-serif;
 }
 
@@ -36,6 +42,7 @@ body{
     display: block;
     margin: 27px auto;
 }
+
 .link{
     display: block;
     background-color: var(--accentColor);
@@ -54,4 +61,4 @@ body{
 .link:hover{
     background-color: var(--bgColor);
     color: var(--accentColor);
-}
+}	

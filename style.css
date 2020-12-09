@@ -43,10 +43,8 @@ body{
     margin: 27px auto;
 }
 
-.link{
+#links a{
     display: block;
-    background-color: var(--accentColor);
-    color: var(--bgColor);
     font-family: var(--font);
     text-align: center;
     margin-bottom: 20px;
@@ -54,11 +52,71 @@ body{
     text-decoration: none;
     font-size: 1rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
-    border: solid var(--accentColor) 2px;
 	border-radius: 25px;
 }
 
-.link:hover{
+.redLink{
+    background-color: var(--redColor);
+    color: var(--bgColor);
+    border: solid var(--redColor) 2px;
+}
+
+.redLink:hover{
     background-color: var(--bgColor);
-    color: var(--accentColor);
-}	
+    color: var(--redColor);
+}
+
+.orangeLink{
+    background-color: var(--orangeColor);
+    color: var(--bgColor);
+    border: solid var(--orangeColor) 2px;
+}
+
+.orangeLink:hover{
+    background-color: var(--bgColor);
+    color: var(--orangeColor);
+}
+
+.yellowLink{
+    background-color: var(--yellowColor);
+    color: #e3e3e3;
+    border: solid var(--yellowColor) 2px;
+}
+
+.yellowLink:hover{
+    background-color: var(--bgColor);
+    color: #e3e3e3;
+}
+
+.greenLink{
+    background-color: var(--greenColor);
+    color: var(--bgColor);
+    border: solid var(--greenColor) 2px;
+}
+
+.greenLink:hover{
+    background-color: var(--bgColor);
+    color: var(--greenColor);
+}
+
+.blueLink{
+    background-color: var(--blueColor);
+    color: var(--bgColor);
+    border: solid var(--blueColor) 2px;
+}
+
+.blueLink:hover{
+    background-color: var(--bgColor);
+    color: var(--blueColor);
+}
+
+.viloletLink{
+    background-color: var(--violetColor);
+    color: var(--bgColor);
+    border: solid var(--violetColor) 2px;
+}
+
+.violetLink:hover{
+    background-color: var(--bgColor);
+    color: var(--violetColor);
+}

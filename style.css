@@ -1,7 +1,7 @@
 /* Style Settings */
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 :root {
-    --bgColor: white;
+    --bgColor: #808080;
     --accentColor: #39cde0;
     --redColor: #ffb1b0;
     --orangeColor: #ffdfbe;
@@ -79,13 +79,13 @@ body{
 
 .yellowLink{
     background-color: var(--yellowColor);
-    color: #e3e3e3;
+	color: var(--bgColor);
     border: solid var(--yellowColor) 2px;
 }
 
 .yellowLink:hover{
     background-color: var(--bgColor);
-    color: #e3e3e3;
+    color: var(--yellowColor);
 }
 
 .greenLink{

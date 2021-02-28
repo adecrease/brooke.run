@@ -79,7 +79,7 @@ body{
 
 .yellowLink{
     background-color: var(--yellowColor);
-	color: var(--bgColor);
+    color: var(--bgColor);
     border: solid var(--yellowColor) 2px;
 }
 
